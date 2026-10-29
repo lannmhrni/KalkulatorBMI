@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KalkuBmiController">
+   <children>
+      <VBox layoutX="38.0" layoutY="44.0" prefHeight="141.0" prefWidth="355.0">
+         <children>
+            <HBox prefHeight="151.0" prefWidth="355.0">
+               <children>
+                  <VBox prefHeight="141.0" prefWidth="186.0">
+                     <children>
+                        <ImageView fx:id="imgLaki" fitHeight="86.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/male-color.jpg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="45.0" />
+                           </VBox.margin></ImageView>
+                        <RadioButton fx:id="rbLaki" mnemonicParsing="false" onAction="#pilihLaki" prefHeight="55.0" prefWidth="179.0" text="Laki-laki">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="genderGroup" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="141.0" prefWidth="187.0">
+                     <children>
+                        <ImageView fx:id="imgPerempuan" fitHeight="105.0" fitWidth="88.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/female-color.jpg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="47.0" />
+                           </VBox.margin></ImageView>
+                        <RadioButton fx:id="rbPerempuan" mnemonicParsing="false" onAction="#pilihPerempuan" prefHeight="61.0" prefWidth="183.0" text="Perempuan" toggleGroup="$genderGroup">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <TextField fx:id="txtTinggi" layoutX="38.0" layoutY="213.0" prefHeight="43.0" prefWidth="372.0" />
+      <TextField fx:id="txtBerat" layoutX="39.0" layoutY="295.0" prefHeight="43.0" prefWidth="372.0" />
+      <Button fx:id="btnHitung" layoutX="75.0" layoutY="397.0" mnemonicParsing="false" onAction="#hitungBMI" prefHeight="43.0" prefWidth="297.0" text="HITUNG BMI">
+         <font>
+            <Font name="Segoe UI" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblHasil" layoutX="38.0" layoutY="348.0" prefHeight="37.0" prefWidth="236.0" />
+      <Label layoutX="39.0" layoutY="185.0" prefHeight="18.0" prefWidth="71.0" text="Tinggi (cm)*" />
+      <Label layoutX="38.0" layoutY="271.0" text="Berat (kg)*" />
+   </children>
+</AnchorPane>
