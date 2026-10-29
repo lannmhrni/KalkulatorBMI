@@ -21,7 +21,7 @@ Aplikasi Kalkulator BMI berbasis Java yang dibuat dengan menggunakan JavaFX dan 
 
 ## Tampilan Aplikasi
 
-![Tampilan Kalkulator BMI](screenshots/kalkulator-bmi.png)
+![Tampilan Kalkulator BMI](screenshots/kalkulatorBMI.png)
 
 ## Struktur Project
 
