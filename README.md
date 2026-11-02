@@ -1,7 +1,7 @@
 
 # Kalkulator BMI
 
-Aplikasi Kalkulator BMI berbasis Java yang dibuat dengan menggunakan JavaFX dan Scene Builder.
+Aplikasi Kalkulator BMI berbasis Java yang dibuat dengan menggunakan JavaFX GUI dan Scene Builder.
 
 ## Fitur
 
@@ -10,14 +10,6 @@ Aplikasi Kalkulator BMI berbasis Java yang dibuat dengan menggunakan JavaFX dan 
 - Pilihan jenis kelamin
 - Perhitungan Body Mass Index (BMI)
 - Menampilkan hasil BMI dan kategori
-
-## Built with
-
-- Java
-- JavaFX
-- Scene Builder
-- Maven
-- Apache NetBeans
 
 ## Tampilan Aplikasi
 
