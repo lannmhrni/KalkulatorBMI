@@ -52,7 +52,7 @@ KalkulatorBMI/
 Buka terminal atau Command Prompt, kemudian jalankan perintah berikut:
 
 ```bash
-git clone https://github.com/USERNAME/KalkulatorBMI.git
+git clone https://github.com/lannmhrni/KalkulatorBMI.git
 ```
 
 Ganti `USERNAME` dengan username GitHub pemilik repository.
