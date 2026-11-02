@@ -47,17 +47,50 @@ KalkulatorBMI/
 
 ## Cara Menjalankan
 
-1. Clone atau download repository ini.
-2. Buka project menggunakan Apache NetBeans atau IDE Java yang mendukung Maven.
-3. Pastikan JDK dan konfigurasi JavaFX sudah sesuai.
-4. Tunggu hingga Maven selesai mengunduh dependensi yang dibutuhkan.
-5. Jalankan aplikasi melalui terminal dengan perintah:
+### 1. Clone Repository
 
-   ```bash
-   mvn clean javafx:run
-   ```
+Buka terminal atau Command Prompt, kemudian jalankan perintah berikut:
 
-   Atau jalankan menggunakan konfigurasi Maven `javafx:run` yang tersedia di IDE.
+```bash
+git clone https://github.com/USERNAME/KalkulatorBMI.git
+```
+
+Ganti `USERNAME` dengan username GitHub pemilik repository.
+
+### 2. Masuk ke Direktori Project
+
+Setelah proses clone selesai, arahkan terminal ke folder proyek:
+
+```bash
+cd KalkulatorBMI
+```
+
+### 3. Periksa Instalasi Java dan Maven
+
+Pastikan JDK dan Maven sudah terpasang dengan menjalankan perintah:
+
+```bash
+java -version
+```
+
+```bash
+mvn -version
+```
+
+### 4. Buka Project
+
+Buka Apache NetBeans, kemudian pilih **File → Open Project**. Cari folder `KalkulatorBMI` yang sudah di-clone sebelumnya.
+
+### 5. Jalankan Aplikasi
+
+Buka terminal pada direktori utama proyek, kemudian jalankan perintah:
+
+```bash
+mvn clean javafx:run
+```
+
+Tunggu hingga proses build selesai. Jika berhasil, aplikasi Kalkulator BMI akan terbuka dan siap digunakan.
+
 
 ## Cara Menggunakan Aplikasi
 
