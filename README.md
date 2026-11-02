@@ -23,6 +23,15 @@ BMI dihitung menggunakan rumus berikut:
 
 BMI = Berat Badan (kg) / Tinggi Badan (m)²
 
+### Kategori BMI
+
+| Nilai BMI | Kategori |
+|---|---|
+| < 18,5 | Berat badan kurang |
+| 18,5 – < 25 | Berat badan normal |
+| 25 – < 30 | Berat badan berlebih |
+| ≥ 30 | Obesitas |
+
 ## Struktur Project
 
 ```text
@@ -54,8 +63,6 @@ Buka terminal atau Command Prompt, kemudian jalankan perintah berikut:
 ```bash
 git clone https://github.com/lannmhrni/KalkulatorBMI.git
 ```
-
-Ganti `USERNAME` dengan username GitHub pemilik repository.
 
 ### 2. Masuk ke Direktori Project
 
