@@ -19,7 +19,7 @@ Aplikasi Kalkulator BMI merupakan aplikasi desktop berbasis Java yang dikembangk
 
 ## Rumus Perhitungan
 
-BMI dihitung menggunakan rumus berikut:
+Rumus BMI:
 
 BMI = Berat Badan (kg) / Tinggi Badan (m)²
 
